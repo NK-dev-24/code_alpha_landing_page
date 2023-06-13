@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Poppins:wght@400;600;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  overflow: hidden;
+}
+
+.container{
+  width: 100px;
+  min-width: 100%;
+  color: #F5F5F5;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  height: 80px;
+  line-height: 80px;
+  z-index: 111;
+}
+
+.logo{
+  display: flex;
+  font-size:40px;
+  font-weight:800; 
+  color: #3d535f;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+b{
+  font-size: 70px;
+  color: #00ADB5;
+}
+.navitems{
+display: flex;
+}
+
+.navitems li{
+list-style: none;
+margin: 0 15px;
+}
+
+.navitems li a {
+  font-size: 25px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.navitems li:hover a{
+  color: #FDBF00 ;
+}
+
+.links a{
+  font-size: 30px;
+  color:#333333 ;
+  margin: 25px 10px;
+  padding:0 ;
+}
+
+.wrapper{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  overflow: hidden;
+}
+
+.cols{
+  width: ;
+  margin-right: ;
+}
+
+.topline{
+  display: block;
+  position: relative;
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: #333333;
+}
+.topline::after{
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: 45px;
+  bottom: 10px;
+  background-color: #FDBF00;
+}
+
+h1{
+  display: block;
+  font-size: 7em;
+  font-weight: 900;
+  color:  #00ADB5;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+.btns{
+  width: 100%;
+  position: relative;
+  left: 150px;
+}
+button{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #333333;
+  padding: 8px 14px;
+  margin: 40px 5px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  box-shadow: 0 15px 10px rgba(0
+  , 0,0,0.4);
+}
+button:hover{
+  background-color: #FDBF00;
+}
+span{
+  color: #FFD700;
+}
+
+.feature-img{
+
+}
